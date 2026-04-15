@@ -8,53 +8,49 @@ body {
   background: #f3f3f3;
 }
 
-/* CĂN GIỮA CARD */
-.wrapper {
-  max-width: 600px;
-  margin: 40px auto;
-}
 
-/* CARD */
-.about {
+.t0 {
+  max-width: 600px;
+  margin: 40px auto; 
   background: #f7f7f7;
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
 }
 
-/* ẢNH */
-.about-img img {
+
+.t1 img {
   width: 100%;
   display: block;
 }
 
-/* TEXT */
-.about-text {
+
+.t2 {
   padding: 15px;
 }
 
-.about-text h2 {
+.t2 h2 {
   margin: 0 0 10px;
   font-size: 18px;
 }
 
-.about-text p {
+.t2 p {
   font-size: 14px;
   line-height: 1.6;
   margin: 5px 0;
 }
 
-/* PC */
+
 @media (min-width: 768px) {
-  .about {
+  .t0 {
     display: flex;
   }
 
-  .about-img {
+  .t1 {
     width: 40%;
   }
 
-  .about-text {
+  .t2 {
     width: 60%;
   }
 }
