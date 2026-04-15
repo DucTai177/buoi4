@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f3f3f3;
+}
+
+/* CĂN GIỮA CARD */
+.wrapper {
+  max-width: 600px;
+  margin: 40px auto;
+}
+
+/* CARD */
+.about {
+  background: #f7f7f7;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* ẢNH */
+.about-img img {
+  width: 100%;
+  display: block;
+}
+
+/* TEXT */
+.about-text {
+  padding: 15px;
+}
+
+.about-text h2 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.about-text p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 5px 0;
+}
+
+/* PC */
+@media (min-width: 768px) {
+  .about {
+    display: flex;
+  }
+
+  .about-img {
+    width: 40%;
+  }
+
+  .about-text {
+    width: 60%;
+  }
+}
