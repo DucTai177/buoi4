@@ -1,0 +1,25 @@
+.t0 {
+  width: auto;
+  height: 80px;
+  border: 1px solid black;
+  clear: both;
+  background-color: #2c3d50;
+}
+
+.t1 {
+  float: left;
+  margin-left: 15px;
+  color: white;
+  font-size: 30px;
+}
+.t2 {
+  display: flex;
+  margin: 15px;
+  float: right;
+  gap: 20px;
+  color: white;
+}
+.t3 {
+  font-weight: 900;
+  font-size: 25px;
+}

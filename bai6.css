@@ -1,0 +1,32 @@
+body {
+  width: 600px;
+  padding: 30px;
+  border: 1px solid white;
+  margin: 15px 0%;
+}
+
+.danhmuc {
+  width: 1000px;
+  height: 100px;
+  padding: 30px;
+  border: 1px solid white;
+  margin: 15px 0%;
+  background-color: #f9f9f9;
+}
+
+.tieude {
+  text-align: center;
+}
+
+.sanpham {
+  display: flex;
+  justify-content: space-between;
+}
+p {
+  border: 3px solid #4092cf;
+  padding: 10px 30px;
+  margin: 0px;
+  border-radius: 4px;
+  background-color: white;
+  text-transform: capitalize;
+}

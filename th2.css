@@ -1,0 +1,25 @@
+body {
+  background-color: #f5f5f5;
+}
+
+.t0 {
+  border: 3px solid #beeeff;
+  width: 300px;
+  background-color: white;
+  padding: 10px;
+  margin: 0px auto;
+  
+}
+
+h1 {
+  font-size: 23px;
+}
+
+.t1 {
+  color: #99969a;
+}
+
+.t2 {
+  color: #e1514d;
+  font-weight: 900;
+}
