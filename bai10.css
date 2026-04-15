@@ -8,22 +8,19 @@ body {
   background: #f3f3f3;
 }
 
-
 .t0 {
   max-width: 600px;
-  margin: 40px auto; 
+  margin: 40px auto;
   background: #f7f7f7;
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
 }
 
-
 .t1 img {
   width: 100%;
   display: block;
 }
-
 
 .t2 {
   padding: 15px;
@@ -40,8 +37,7 @@ body {
   margin: 5px 0;
 }
 
-
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .t0 {
     display: flex;
   }
